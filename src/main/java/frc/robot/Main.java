@@ -1,8 +1,7 @@
 package main.java.frc.robot;
 
 public final class Main {
-    public static void main(String[] args) throws InterruptedException{
-        Thread main = Thread.currentThread();
+    public static void main(String[] args) throws Exception {
         Robot robot = new Robot();
 
         robot.robotInit();
